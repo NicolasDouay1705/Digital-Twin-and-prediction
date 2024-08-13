@@ -65,4 +65,4 @@ function mapToDittoProtocolMsg(headers, textPayload, bytePayload, contentType) {
 
 ### The file 'Prediction_Batteriy_with_DT.ipynb'
 
-It is a set of the codes I wrote. There is two models for the prediction: a transformer one that is not working and a LSTM one that make good predictions 
+It is a set of the codes I wrote. There are two models for the prediction: a transformer one that is not working and a LSTM one that make good predictions 
