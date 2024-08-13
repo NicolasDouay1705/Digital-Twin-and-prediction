@@ -6,9 +6,8 @@ I worked on a digital twin and prediction.
 ## How to use these code
 
 ### The folder 'Dashboard'
-It is two files: Two dashboard code and the code of my digital twin class. Dashboard.py is a previous version and is not working. Custom_Dashboard.py is working and can connect to Ecclipse Ditto 
+It is two files: Two dashboard code and the code of my digital twin class. Dashboard.py is a previous version and is not working. Custom_Dashboard.py is working and can connect to Ecclipse Ditto.
 To use the digital twin, you have to connect to Ecclipse Ditto, you have to follow this [tutorial](https://www.hivemq.com/blog/hands-on-guide-using-mqtt-hivemq-eclipse-ditto-digital-twins-iiot/) and add the following incoming payload mapping function to the right section:
-'''
 
 function mapToDittoProtocolMsg(headers, textPayload, bytePayload, contentType) {
     const jsonString = String.fromCharCode.apply(null, new Uint8Array(bytePayload));
